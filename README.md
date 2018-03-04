@@ -5,7 +5,7 @@
 ## Play around
 
 1. Open `UnityProject` in Unity
-  * Build as WebGL (using any template), select `app/assets/unity` as target folder
+    * Build as WebGL (using any template), select `app/assets/unity` as target folder
 1. Run `npm start` + open the resulting website
 1. Done!
 
@@ -13,10 +13,10 @@
 
 * Firebase support has not yet been added
 * Code for embedding Unity is currently in the `App` component
-  * see [[Unity Manual] WebGL Build](https://docs.unity3d.com/Manual/webgl-building.html)
+    * see [[Unity Manual] WebGL Build](https://docs.unity3d.com/Manual/webgl-building.html)
 * The current version displays (almost exclusively) the Unity game
 * There is an HTML button beneath it to spawn objects in the game
-  * [[Unity Manual] WebGL build interacting with browser scripting](https://docs.unity3d.com/Manual/webgl-interactingwithbrowserscripting.html)
+    * see [[Unity Manual] WebGL build interacting with browser scripting](https://docs.unity3d.com/Manual/webgl-interactingwithbrowserscripting.html)
 
 
 
