@@ -11,7 +11,7 @@ export default class App extends Component {
   }
 
   initUnity() {
-    this.gameInstance = window.UnityLoader.instantiate('gameContainer', 'unity/Build/unity.json');
+    this.gameInstance = window.UnityLoader.instantiate('unityContainer', 'unity/Build/unity.json');
   }
 
   spawnOne = () => {
@@ -33,7 +33,7 @@ export default class App extends Component {
         {/* <pre>
           {JSON.stringify(unityBuild, null, 2)}
         </pre> */}
-        <div id="gameContainer" />
+        <div id="unityContainer" className="unity-container" />
         <button type="button" onClick={this.spawnOne}>Spawn!</button>
       </div>
     );
