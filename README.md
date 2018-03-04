@@ -1,4 +1,30 @@
+
+
+# Embedding Unity WebGL build in a react website w/ Firebase
+
+## Play around
+
+1. Open `UnityProject` in Unity
+  * Build as WebGL (using any template), select `app/assets/unity` as target folder
+1. Run `npm start` + open the resulting website
+1. Done!
+
+## Notes + TODOs
+
+* Firebase support has not yet been added
+* Code for embedding Unity is currently in the `App` component
+  * see [[Unity Manual] WebGL Build](https://docs.unity3d.com/Manual/webgl-building.html)
+* The current version displays (almost exclusively) the Unity game
+* There is an HTML button beneath it to spawn objects in the game
+  * [[Unity Manual] WebGL build interacting with browser scripting](https://docs.unity3d.com/Manual/webgl-interactingwithbrowserscripting.html)
+
+
+
 # ES6 React boilerplate using Webpack
+
+NOTE: This project is built on top of [this react webpack boilerplate](https://github.com/KleoPetroff/react-webpack-boilerplate).
+
+## Introduction
 
 [![Travis](https://img.shields.io/travis/KleoPetroff/react-webpack-boilerplate/master.svg?style=flat-square)](https://github.com/KleoPetroff/react-webpack-boilerplate) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 

@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-boilerplate",
+  "name": "unity-webgl-react-firebase",
   "version": "2.1.0",
-  "description": "Minimalistic ES6 React boilerplate",
+  "description": "Unity WebGL in React w/ Firebase (based on `Minimalistic ES6 React boilerplate`)",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -10,11 +10,9 @@
     "lint": "eslint ./app/**/**.js",
     "test": "jest",
     "test:watch": "jest --watch",
-    "coverage": "jest --coverage",
-    "precommit": "cross-env npm run lint && npm test",
-    "prepush": "cross-env npm run lint && npm test"
+    "coverage": "jest --coverage"
   },
-  "author": "Kliment Petrov <kleopetroff@gmail.com>",
+  "author": "Domi",
   "license": "MIT",
   "jest": {
     "setupFiles": [
