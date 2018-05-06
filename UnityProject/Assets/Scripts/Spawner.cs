@@ -17,13 +17,13 @@ public class Spawner : MonoBehaviour {
 
 	}
 
-	void SpawnOne() {
+	public void SpawnOne() {
 		var pos = transform.position + Vector3.right * Random.Range (-variance, variance);
 		var go = (GameObject)Instantiate (prefab, pos, Quaternion.identity);
 		Destroy (go, 10);
 	}
 
-	void Spawn(int n = 1) {
+	public void Spawn(int n = 1) {
 		for (var i = 0; i < n; ++i) {
 			
 		}

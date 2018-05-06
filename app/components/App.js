@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import img from '../assets/images/react_logo_512x512.png';
 
+import s from '../assets/scss/main.scss';
+
 
 //import _nothing from '../assets/unity/Build/UnityLoader';
 //import unityBuild from '../assets/';
@@ -21,8 +23,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h2 id="heading">Hello Unity Game!</h2>
-        <img
+        <h2 className="heading">Hello Unity Game! <img
           className="image"
           style={{ margin: '0.5em' }}
           height="40"
@@ -30,11 +31,14 @@ export default class App extends Component {
           src={img}
           alt="React Logo"
         />
+        </h2>
         {/* <pre>
           {JSON.stringify(unityBuild, null, 2)}
         </pre> */}
+        <div>
+          <button type="button" onClick={this.spawnOne}>Spawn!</button>
+        </div>
         <div id="unityContainer" className="unity-container" />
-        <button type="button" onClick={this.spawnOne}>Spawn!</button>
       </div>
     );
   }

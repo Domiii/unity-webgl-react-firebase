@@ -4,6 +4,14 @@ body {
   color: $color;
 }
 
+.heading {
+  
+}
+
+.heading > * {
+  vertical-align: middle;
+}
+
 .unity-container {
   width: 800px;
   height: 600px;

@@ -75,7 +75,7 @@ const config = {
             options: {
               limit: 8192,
               mimetype: 'image/png',
-              name: 'images/[name].[ext]',
+              name: 'images/[name].[ext]'
             }
           }
         ],
