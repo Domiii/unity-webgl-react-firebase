@@ -1419,7 +1419,6 @@ GameObject:
   - component: {fileID: 1349496187}
   - component: {fileID: 1349496186}
   - component: {fileID: 1349496188}
-  - component: {fileID: 1349496189}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -1497,20 +1496,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 1640114869974294, guid: 741d2b84746c2e346bf9f8961d11f3c5, type: 2}
   variance: 5
---- !u!114 &1349496189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1349496185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65d9d897f456149cb88ccef64cfe2a62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxRadius: 3
-  speed: 3
-  speedDeltaMax: 0.005
 --- !u!1 &1486766201
 GameObject:
   m_ObjectHideFlags: 0
